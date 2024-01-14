@@ -1,0 +1,128 @@
+:root {
+    --form-background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    --font-family: Manrope;
+    --gradient-text: radial-gradient(circle at 3% 25%, rgba(233, 30, 99, 1) 0%, rgba(174, 103, 250, 1) 100%);
+    --font-color: rgb(182, 180, 180);
+    --btn-colr: rgba(233, 30, 99, 1)
+}
+
+
+body{
+    background-color:#040C18;
+    font-family: var(--font-family);
+}
+
+/* Navigation */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding:0 50px 0 50px;
+}
+
+.navigation p {
+    color: var( --font-color);
+    
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.navigation__area{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.navigation__area a{
+   text-decoration: none;
+   color: var( --font-color);
+   
+   font-size: 15px;
+}
+
+/* Signin Form */
+
+.signin_page_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    /* sizing */
+    height: 80vh;
+}
+
+
+.sigin_form_wrapper{
+    width: 300px;
+    height: 400px;
+    border: 1px solid;
+    border-radius: 15px;
+
+    background: var(--form-background);
+
+    /* positioning */
+    display: flex;
+    justify-content: center;
+
+    padding: 32px;
+}
+
+.sigin_form_wrapper-header{
+    display: flex;
+    justify-content: center;
+}
+.sigin_form_wrapper-header p{
+    font-size: 20px;
+    line-height: 35px;
+    color: var(--font-color)
+}
+
+.sigin_form_wrapper-input{
+    /* sizing */
+    height: 100px;
+
+    /* positioning */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sigin_form_wrapper-input input{
+    line-height: 42px;
+    width: 300px;
+    padding: 0 0 0 10px;
+    border-radius: 5px;
+    border: none;
+    color: var(--font-color);
+    background-color:#040c18b0;
+}
+
+.sigin_form_wrapper-CTA {
+
+    /* positioning */
+    display: flex;
+    justify-content: center;
+
+    /* sizing */
+    padding: 20px;
+}
+.sigin_form_wrapper-CTA button{
+    line-height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    color: var(--font-color);
+    background-color:var(--btn-colr);
+}
+
+.sigin_form_wrapper-account-create {
+    display: flex;
+    justify-content: center;
+}
+.sigin_form_wrapper-account-create a {
+    text-decoration: none;
+    color: var(--font-color);
+    font-size: 10px;
+}
