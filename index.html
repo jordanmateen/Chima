@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE unrelated>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,7 +26,9 @@
                     <button class="nav_cta_btn-sign-in">
                         <a href="./signIn.html" style="text-decoration: none; color: rgb(182, 180, 180);">Sign In</a>
                     </button>
-                    <button class="nav_cta_btn-sign-up">Sign Up</button>
+                    <button class="nav_cta_btn-sign-up">
+                        <a href="./signUp.html" style="text-decoration: none; color: rgb(182, 180, 180);">Sign Up</a>
+                    </button>
                 </div>
             </div>
 
@@ -38,12 +40,13 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem optio aliquam fugiat quas iure maxime cupiditate? Explicabo pariatur perspiciatis beatae! Eum laborum libero ad cumque repellat sed ex aliquid accusantium!</p>
                         <p>Join Our Waitlist</p>
                     </div>
+                    <div id="success-msg"></div>
                     <div class="form__wrapper-input">
                         <div>
-                            <input type="email" placeholder="Email Address">
+                            <input id="waitlist-form" type="email" placeholder="Email Address">
                         </div>
                         <div>
-                            <button class="cta_btn-sign-up">Sign Up</button>
+                            <button id="sign-up-btn" class="cta_btn-sign-up">Sign Up</button>
                         </div>
                     </div>
                 </div>
@@ -56,5 +59,6 @@
         <!-- divider  -->
         <div class="header__divider"></div>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>

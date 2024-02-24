@@ -54,7 +54,7 @@ body{
 }
 
 
-.sigin_form_wrapper{
+.signin_form_wrapper{
     width: 300px;
     height: 400px;
     border: 1px solid;
@@ -69,17 +69,17 @@ body{
     padding: 32px;
 }
 
-.sigin_form_wrapper-header{
+.signin_form_wrapper-header{
     display: flex;
     justify-content: center;
 }
-.sigin_form_wrapper-header p{
+.signin_form_wrapper-header p{
     font-size: 20px;
     line-height: 35px;
     color: var(--font-color)
 }
 
-.sigin_form_wrapper-input{
+.signin_form_wrapper-input{
     /* sizing */
     height: 100px;
 
@@ -89,7 +89,7 @@ body{
     justify-content: space-around;
 }
 
-.sigin_form_wrapper-input input{
+.signin_form_wrapper-input input{
     line-height: 42px;
     width: 300px;
     padding: 0 0 0 10px;
@@ -99,7 +99,7 @@ body{
     background-color:#040c18b0;
 }
 
-.sigin_form_wrapper-CTA {
+.signin_form_wrapper-CTA {
 
     /* positioning */
     display: flex;
@@ -108,7 +108,7 @@ body{
     /* sizing */
     padding: 20px;
 }
-.sigin_form_wrapper-CTA button{
+.signin_form_wrapper-CTA button{
     line-height: 40px;
     width: 100px;
     border-radius: 5px;
@@ -117,11 +117,11 @@ body{
     background-color:var(--btn-colr);
 }
 
-.sigin_form_wrapper-account-create {
+.signin_form_wrapper-account-create {
     display: flex;
     justify-content: center;
 }
-.sigin_form_wrapper-account-create a {
+.signin_form_wrapper-account-create a {
     text-decoration: none;
     color: var(--font-color);
     font-size: 10px;
