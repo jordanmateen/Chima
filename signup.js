@@ -10,4 +10,4 @@ const password = document.getElementById('password');
 
 firstName.addEventListener('change', (event)=>{
     console.log(event)
-})
+});

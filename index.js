@@ -13,7 +13,7 @@ signUpBtn.addEventListener('click', (event)=>{
     successMsg.style.color="rgb(182, 180, 180)"
     successMsg.style.font = "Manrope"
     successMsg.innerHTML = `Hey ${waitlistInputValue}, Gotcha covered well will talk soon!`
-    localStorage.setItem(`${waitlistInputValue}`, JSON.stringify({email: waitlistInputValue}))
+    localStorage.setItem(`${waitlistInputValue}`, JSON.stringify({email: waitlistInputValue})) //  localStorage.setItem(key, value)
 
     setTimeout(()=>{
         successMsg.innerHTML=''
